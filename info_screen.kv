@@ -1,0 +1,26 @@
+MDScreen:
+    name: "info_screen"
+    MDBoxLayout:
+        orientation: "vertical"
+        MDToolbar:
+            title: "Acerca de"
+            elevation: 15
+            pos_hint: {"top": 1}
+            left_action_items: [["keyboard-backspace", lambda x: app.cambio_screen("inicio_screen")]]
+        MDLabel:
+            text: "  InternetSpeed es una aplicacion de escritorio creada con python,\n  para poder medir las velocidades tanto de subida como de bajada de su internet.\n  InternetSpeed no guarda ni recopila nigun dato sobre sus usuarios.\n  Esta aplicacion fue vreada sin fines de lucro por @VidalGB"
+            halign: "left"
+            theme_text_color: "Secondary"
+            font_style: "Subtitle2"
+        MDList:
+            OneLineIconListItem:
+                text: "Codigo fuente"
+                on_release: app.hola()
+                IconLeftWidget:
+                    icon: "github"
+            TwoLineIconListItem:
+                text: "Contacto"
+                secondary_text: "vidalgb.contacto@gmail.com"
+                IconLeftWidget:
+                    icon: "gmail"
+        Widget:

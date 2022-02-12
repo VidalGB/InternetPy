@@ -1,0 +1,62 @@
+<ItemConfirm>
+    id: list1
+    text: root.text
+    on_release: app.lec_idioma(check_ingles, "English")
+    CheckboxLeftWidget:
+        id: check_ingles
+        group: "check"
+        on_release: app.lec_idioma(check_ingles, "English")
+        active: root.active
+
+<ItemConfirm2>
+    id: list2
+    text: root.text
+    on_release: app.lec_idioma(check_español, "Español")
+    CheckboxLeftWidget:
+        id: check_español
+        group: "check"
+        on_release: app.lec_idioma(check_español, "Español")
+        active: root.active
+
+<ItemConfirm3>
+    id: list3
+    text: root.text
+    on_release: app.lec_idioma(check_portugues, "Portugues")
+    CheckboxLeftWidget:
+        id: check_portugues
+        group: "check"
+        on_release: app.lec_idioma(check_portugues, "Portugues")
+        active: root.active
+
+MDScreen:
+    name: 'settings_screen'
+    MDBoxLayout:
+        orientation: "vertical"
+        MDToolbar:
+            id: bar
+            title: f"{app.mostrar('p_ajustes', True)}"
+            elevation: 15
+            pos_hint: {"top": 1}
+            left_action_items: [["keyboard-backspace", lambda x: app.cambio_screen("inicio_screen")]]
+        MDList:
+            OneLineIconListItem:
+                id: oscuro
+                text: f"{app.mostrar('modo_oscuro', True)}"
+                on_release: app.modo_oscuro_dialog()
+                IconLeftWidget:
+                    icon: "theme-light-dark"
+            OneLineIconListItem:
+                id: conf
+                text: f"{app.mostrar('b_datos', True)}"
+                on_release: app.cambio_screen("datos_screen")
+                IconLeftWidget:
+                    icon: "cog"
+                    on_release: app.cambio_screen("datos_screen")
+            OneLineIconListItem:
+                id: idioma
+                text: f"{app.mostrar('lenguaje', True)}"
+                on_release: app.idioma_configuracion_dialog()
+                IconLeftWidget:
+                    icon: "book-open-variant"
+                    on_release: app.idioma_configuracion_dialog()
+        Widget:

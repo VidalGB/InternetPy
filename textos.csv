@@ -1,0 +1,23 @@
+señal;Buena,Mala;Good,Bad;Bom,Ruim
+progreso;Procesando;Processing;Processamento
+tiempo;Datos Anteriores;Previous Data;Dados Anteriores
+b_ajustes;Ajustes;Settings;Configurações
+b_info;Información;Information;Informação
+p_datos;Configuración;Configuration;Configuração
+b_datos;Configuración de Datos;Data Configuration;Configuração de Dados
+p_medicion;Medición de internet;Internet measurement;Medição de internet
+cuadro_s;Carga;Upload;Upload
+cuadro_s-a;Ingrasar cuantos MB de Carga/Subda tiene contratado.(número);Enter how many MB of Upload you have contracted.(number);Insira quantos MB de Upload/Subda você contratou.(número)
+cuadro_b;Descarga;Download;Download
+cuadro_b-a;Ingrasar cuantos MB de Descarga tiene contratado.(número);Enter how many MB of Download you have contracted.(number);Insira quantos MB de Download você contratou.(número)
+B_conf;Guardar;Save;Salve
+T_conf;Coloque los balores de Carga/Subida y Descarga de su plan de internet contratado. (número en MB);Place the Upload and Download values of your contracted internet plan. (number in MB);Coloque os valores de Upload e Download do seu plano de internet contratado. (número em MB)
+lenguaje;Idioma;Idiom;Idioma
+idioma_i;Inglés (English);English;inglês (English)
+idioma_e;Español;Spanish (Español);Espanhol (Español)
+idioma_p;Portugués (Português);Portuguese (Português);Português
+modo_oscuro;Modo oscuro;Dark mode;Modo escuro
+p_ajustes;Ajustes;Settings;Configurações
+idioma_dialog;Elige tu idioma;Select your language;Selecione sua lingua
+b1_modo_oscuro;Activar;Activate;Ativar
+b2_modo_oscuro;Desactivar;Deactivate;Desativar
