@@ -1,0 +1,20 @@
+MDScreen:
+    name: 'login_screen'
+    MDFloatLayout:
+        orientation: "vertical"
+        MDToolbar:
+            id: Bar
+            title: f"{app.mostrar('p_medicion', True)}"
+            elevation: 15
+            pos_hint: {"top": 1}
+    BoxLayout:
+        orientation: "vertical"
+        padding: "150dp"
+        MDLabel:
+            id: porsentaje
+            text: f"{app.mostrar('progreso', True)}: {app.mostrar('progreso', False)}%"
+            halign: "center"
+            font_style: "H6"
+        MDProgressBar:
+            id: bar
+            value: int(app.mostrar('progreso', False))

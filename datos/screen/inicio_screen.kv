@@ -1,0 +1,50 @@
+MDScreen:
+    name: 'inicio_screen'
+    MDBoxLayout:
+        orientation: "vertical"
+        MDToolbar:
+            id: button
+            title: "QuickWify"
+            elevation: 15
+            pos_hint: {"top": 1}
+            right_action_items: [["dots-vertical", lambda x: app.abrir(x)]]
+        Widget:
+        MDFloatingActionButton:
+            icon: "play"
+            pos_hint: {'center_x': .5, 'center_y': .7}
+            on_press:
+                app.login_actualizar()
+                app.cambio_screen("login_screen")
+        MDLabel:
+            id: t_tiempo
+            text: f"{app.mostrar('tiempo', True)}: {app.mostrar('fecha', False)}"
+            halign: "center"
+            theme_text_color: "Primary"
+            font_style: "H6"
+        MDBoxLayout:
+            orientation: "horizontal"
+            MDIcon:
+                icon: "upload"
+                halign: "right"
+            MDLabel:
+                id: t_upload
+                text: f"{app.mostrar('subida', False)} MB/s"
+                halign: "auto"
+                font_style: "H6"
+            MDIcon:
+                icon: "download"
+                halign: "right"
+            MDLabel:
+                id: t_download
+                text: f"{app.mostrar('descarga', False)} MB/s"
+                halign: "auto"
+                font_style: "H6"
+            MDIcon:
+                icon: "web-clock"
+                halign: "right"
+            MDLabel:
+                id: t_ping
+                text: f"{app.mostrar('ping', False)} Ping"
+                halign: "auto"
+                font_style: "H6"
+            Widget:

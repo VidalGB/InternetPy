@@ -1,0 +1,20 @@
+MDScreen:
+    name: "error_screen"
+    MDFloatLayout:
+        orientation: "vertical"
+        Image:
+            source: "datos/imagenes/error.png"
+            pos_hint: {'center_x': .5, 'center_y': .75}
+            size_hint: None, None
+            size: "300dp", "300dp"
+        MDLabel:
+            id: t_error
+            text: f"{app.mostrar('t_error', True)}"
+            halign: "center"
+            theme_text_color: "Primary"
+            font_style: "H6"
+        MDFloatingActionButton:
+            icon: "replay"
+            pos_hint: {'center_x': .5, 'center_y': .30}
+            on_press:
+                app.cambio_screen("inicio_screen")

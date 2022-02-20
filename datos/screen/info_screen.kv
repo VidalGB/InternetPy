@@ -1,0 +1,40 @@
+MDScreen:
+    name: "info_screen"
+    MDBoxLayout:
+        orientation: "vertical"
+        MDToolbar:
+            id: bar
+            title: f"{app.mostrar('b_info', True)}"
+            elevation: 15
+            pos_hint: {"top": 1}
+            left_action_items: [["keyboard-backspace", lambda x: app.cambio_screen("inicio_screen")]]
+        MDLabel:
+            id: text
+            text: app.text_info()
+            halign: "left"
+            theme_text_color: "Secondary"
+            font_style: "Subtitle2"
+        MDList:
+            OneLineIconListItem:
+                id: codigo
+                text: f"{app.mostrar('b_codigo', True)}"
+                on_release: app.button_info(False)
+                IconLeftWidget:
+                    icon: "github"
+                    on_release: app.button_info(False)
+            TwoLineIconListItem:
+                id: contacto
+                text: f"{app.mostrar('b_contacto', True)}"
+                secondary_text: "vidalgb.contacto@gmail.com"
+                on_release: app.button_info(True)
+                IconLeftWidget:
+                    icon: "gmail"
+                    on_release: app.button_info(True)
+        Widget:
+    MDFloatLayout:
+        orientation: "vertical"
+        Image:
+            source: "datos/imagenes/logo.png"
+            size_hint: None, None
+            size: "250dp", "250dp"
+            pos_hint: {'center_x': .89, 'center_y': .70}
