@@ -1,11 +1,4 @@
-# InternetPy
-Este es un pequeño software con GUI que te permite obtener datos de tu internet, este software fue realizado con Python.
-Entre las opciones disponibles podes:
-
-medir la velocidad de tu internet
-ver tu ping
-
-# Instalación
+# Instalacion
 Para instalar este software debe dirigirse a la carpeta "Ejecutable", y descargar el archivo de su sistema operativo.
 
 #Windous
