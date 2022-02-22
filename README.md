@@ -2,11 +2,11 @@
 To install this software you must go to the releases section, and download the file for your operating system.
 
 # Windows
-Due to various library problems and with pip-python I have not been able to make a version for Windows, as soon as I can make it I will upload it to the repository, an apology and thanks.
+Due to various library problems and with pip-python I have not been able to make a version for Windows. As soon as I can make it I will upload it to the repository.
 
 # Linux
 Once the executable is downloaded to your computer, you must give it execution permissions.
-This can be done by terminal or not, if you do it through the terminal you must do the following:
+This can be done by terminal or by graphic mode, if you do it through the terminal you must do the following:
 
 # Terminal
 - Go to the directory where it was downloaded with:
@@ -30,14 +30,14 @@ Once you have done that, to run it you must double-click on the file.
 Para instalar este software debe dirigirse a la sección de lanzamientos, y descargar el archivo de su sistema operativo.
 
 # Windows
-Por diversos problemas de librerías y con pip-python no he podido realizar una versión para Windows, en cuanto pueda realizarla la subiré al repositorio, una disculpa y gracias.
+Por diversos problemas de librerías y con pip-python no he podido realizar una versión para Windows, en cuanto pueda realizarla la subiré al repositorio.
 
 # Linux 
 Una vez descargado el ejecutable en su computadora debe darle permisos de ejecución. 
-Esto lo puede realizar por terminal o no, si lo hace a través de la terminal debe hacer lo siguiente:
+Esto lo puede realizar por terminal o por modo gráfico, si lo hace a través de la terminal debe hacer lo siguiente:
 
 # Terminal
-- Dirigirse al directorio donde lo allá descargado con:
+- Dirigirse al directorio donde lo haya descargado con:
 "cd" + 
 
 - Después debe extraer el ejecutable del tar.xz, para ello ingrese el siguiente comando "tar -xf ./QuickWify-Linux.tar.xz"
@@ -50,19 +50,19 @@ Esto lo puede realizar por terminal o no, si lo hace a través de la terminal de
 - Una vez hecho eso para ejecutarlo debe escribir ./QuickWify
 
 # Modo Gráfico
-Si lo realiza a través de la interfaz gráfica debe dirigirse a la carpeta donde allá descargado el archivo y extraerlo, para ello haga "clic derecho" sobre QuickWify-Linux.tar.xz y dele a extraer aquí. Luego, diríjase a la carpeta QuickWify y haga "clic derecho" sobre QuickWify valla a "propiedades", después a "permisos" y tildar la opción "permitir ejecutar el archivo como un programa"
-Una vez realizado eso para ejecutarlo debe realizar doble clic en el archivo.
+Si lo realiza a través de la interfaz gráfica debe dirigirse a la carpeta donde haya descargado el archivo y extraerlo, haciendo "clic derecho" sobre QuickWify-Linux.tar.xz y luego "extraer aquí". Luego, diríjase a la carpeta QuickWify y haga "clic derecho" sobre QuickWify vaya "propiedades", después a "permisos" y tildar la opción "permitir ejecutar el archivo como un programa"
+Una vez realizado esto para ejecutarlo debe hacer doble clic en el archivo.
 
 # Portuguese (Português)
 # Instalação
 Para instalar este software você deve ir para a seção de lançamentos e baixar o arquivo para o seu sistema operacional.
 
 # Windows
-Devido a vários problemas de biblioteca e com o pip-python não consegui fazer uma versão para Windows, assim que conseguir farei o upload para o repositório, um pedido de desculpas e obrigado.
+Devido a vários problemas de biblioteca e com o pip-python não consegui fazer uma versão para Windows, assim que conseguir farei o upload para o repositório.
 
 # Linux
 Uma vez que o executável é baixado para o seu computador, você deve dar a ele permissões de execução.
-Isso pode ser feito pelo terminal ou não, se você fizer pelo terminal você deve fazer o seguinte:
+Isso pode ser feito pelo terminal ou se você fizer, pelo terminal você deve fazer o seguinte:
 
 # Terminal
 - Vá para o diretório onde foi baixado com:
