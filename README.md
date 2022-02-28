@@ -10,7 +10,7 @@ This can be done by terminal or by graphic mode, if you do it through the termin
 
 # Terminal
 - Go to the directory where it was downloaded with:
-"cd" + <download path>
+"cd" + "download path"
 
 - Then you must extract the executable from tar.xz, to do this enter the following command "tar -xf ./QuickWify-Linux.tar.xz"
 
@@ -38,7 +38,7 @@ Esto lo puede realizar por terminal o por modo gráfico, si lo hace a través de
 
 # Terminal
 - Dirigirse al directorio donde lo haya descargado con:
-"cd" + <ruta de descarga>
+"cd" + "ruta de descarga"
 
 - Después debe extraer el ejecutable del tar.xz, para ello ingrese el siguiente comando "tar -xf ./QuickWify-Linux.tar.xz"
 
@@ -66,7 +66,7 @@ Isso pode ser feito pelo terminal ou se você fizer, pelo terminal você deve fa
 
 # Terminal
 - Vá para o diretório onde foi baixado com:
-"cd" + <caminho de download>
+"cd" + "caminho de download"
 
 - Então você deve extrair o executável do tar.xz, para isso digite o seguinte comando "tar -xf ./QuickWify-Linux.tar.xz"
 
